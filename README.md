@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://i.imgur.com/heVZoaq.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/maker-prelaunch-landing-page-using-tailwind-css-UY6neTFr0w](https://www.frontendmentor.io/solutions/maker-prelaunch-landing-page-using-tailwind-css-UY6neTFr0w)
+- Live Site URL: [https://maker-page.netlify.app/](https://maker-page.netlify.app/)
 
 ## My process
 
