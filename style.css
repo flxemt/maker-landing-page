@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 768px) {
+  .hero {
+    background: url('/illustration-hero-left.svg') no-repeat top left -170px,
+      url('/illustration-hero-right.svg') no-repeat top right -170px;
+    background-size: 314px;
+  }
+}
+
+@media (min-width: 1110px) {
+  .hero {
+    background: url('/illustration-hero-left.svg') no-repeat top 1px left -53px,
+      url('/illustration-hero-right.svg') no-repeat top 9px right -60px;
+    background-size: 408px, 395px;
+  }
+}
+
+li span {
+  position: relative;
+  right: -10px;
+}
+
+form.error input {
+  border: 2px solid #ff2965;
+}
+
+form.error + .error-text {
+  display: block;
+}
+
+.error-text {
+  display: none;
+}
