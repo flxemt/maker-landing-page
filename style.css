@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+li span {
+  position: relative;
+  right: -10px;
+}
+
+form.error input {
+  border: 2px solid #ff2965;
+}
+
+form.error + .error-text {
+  display: block;
+}
+
+.error-text {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .hero {
     background: url('/illustration-hero-left.svg') no-repeat top left -170px,
@@ -18,19 +35,8 @@
   }
 }
 
-li span {
-  position: relative;
-  right: -10px;
-}
-
-form.error input {
-  border: 2px solid #ff2965;
-}
-
-form.error + .error-text {
-  display: block;
-}
-
-.error-text {
-  display: none;
+@media (min-width: 1600px) {
+  .section-form {
+    background-position: center top !important;
+  }
 }

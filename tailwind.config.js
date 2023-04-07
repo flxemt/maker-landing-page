@@ -42,8 +42,7 @@ export default {
     },
     screens: {
       md: '768px',
-      xl: '1110px',
-      '2xl': '1600px'
+      xl: '1110px'
     },
     container: {
       center: true
